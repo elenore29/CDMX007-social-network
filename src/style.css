@@ -1,135 +1,130 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 
 body {
-  background-color: #ef9898; 
-
+    background-color: #682c2c;
 }
 
-#login  {
-    margin: 0 auto; 
-    width: 80%;
-    height: 90vh;
-    margin-top: 10%; 
-    position: relative; 
+#login {
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    height: 15vh;
+    bottom: 0px;
 }
 
 #login-white {
     width: 100%;
-    height: 85vh; 
-    background-color: white; 
-    border-radius: 3%; 
-    position: absolute; 
-    bottom: 0px; 
+    height: 85vh;
+    background-color: #682c2c;
+    position: absolute;
+    bottom: 0px;
     text-align: center;
 }
 
-#logo{
-    width: 70%;
-    height: 40%; 
+#logo {
+    width: 60%;
+    height: 30%;
     background-color: white;
-    border-radius: 50%; 
-    border-color: #ef9898;
-    border-width: 3px;
+    border-radius: 50%;
+    border-color: #682c2c;
+    border-width: 5px;
     border-style: solid;
-    margin: 0 auto; 
-    position: relative; 
-    top: -10%; 
+    margin: 0 auto;
+    position: relative;
+    top: -10%;
 }
 
 h1 {
-    color: #ef9898;
+    color: white;
     font-family: 'Nanum Gothic', sans-serif;
-    text-align: center; 
-    font-size: 1.5em; 
+    text-align: center;
+    font-size: 1.5em;
 }
 
-.input-login::placeholder, .input-login {
+.input-login::placeholder,
+.input-login {
     width: 70%;
-    color: #ef9898;
+    color: white;
     font-family: 'Nanum Gothic', sans-serif;
-    border-top: 0px; 
-    border-right: 0px; 
-    border-left: 0px; 
-    border-bottom-width: 2px; 
-    border-bottom-color: #ef9898; 
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom-width: 2px;
+    border-bottom-color: white;
+    background-color: #682c2c;
+
 }
 
-#content {
-    float: right; 
-    text-align: right; 
-    margin-right: 20px; 
-    width: 75%; 
-}
-
-#button-login{
-    width: 40%; 
-    background-color: #ef9898; 
+#button-login {
+    width: 50%;
+    background-color: #682c2c;
     font-family: 'Nanum Gothic', sans-serif;
-    border: 0; 
-    border-radius: 5px; 
-    color: white; 
-    font-size: 1em; 
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-size: 1em;
 }
 
-.options{
-    font-size: 1em; 
-    color: #ef9898; 
-    text-align: right; 
+.options {
+    font-size: 1em;
+    color: white;
 }
 
-#register-one, #forgot-password {
-    font-size: 0.9em; 
-    color: #ef9898; 
-    background-color: white;
-    border: 0; 
+#register-one {
+    font-size: 0.9em;
+    color: white;
+    border: 0;
 }
 
-#logo-fb, #logo-google {
-    width: 100%;
+#logo-fb {
+    width: 100%; 
 }
 
-.logo-red {
-    display: inline-block; 
-    width: 25%;
+#logo-google {
+    width: 70%;
 }
 
+.logotipo {
+    width: 35%; 
+    margin: 0 auto; 
+    background-color: white; 
+    margin-top: 5px; 
+}
+
+/* Estilos del form de registro */
 #content-form {
     width: 80%;
-    margin: 0 auto; 
-    margin-top: 10%; 
+    margin: 0 auto;
+    margin-top: 10%;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-.form-row{
-    color: white; 
+.form-row {
+    color: #682c2c;
 }
 
 .form-control:focus {
-    color: black; 
+    color: black;
 }
 
 .form-control {
-    color: #ef9898; 
+    color: #5F023A;
 }
 
 .form-control::placeholder {
-    color: #ef9898; 
+    color: #5F023A;
 }
 
 
 #register {
-    margin-left: 15px; 
-    font-size: 1em; 
-    color: #ef9898; 
+    margin-left: 15px;
+    font-size: 1em;
+    color: #5F023A;
     background-color: white;
-    border: 0; 
+    border: 0;
 }
 
 .icons {
-    width: 15%; 
-}
-
-
-#log-out{
-    background-color: aquamarine;
+    width: 7%;
 }
