@@ -14,21 +14,25 @@ body {
 
 #login-white {
     width: 100%;
-    height: 85vh;
+    height: 87vh;
     background-color: #682c2c;
     position: absolute;
     bottom: 0px;
     text-align: center;
 }
 
+#cont {
+    position: relative;
+    top: -5%;
+}
+
 #logo {
-    width: 60%;
-    height: 30%;
-    background-color: white;
-    border-radius: 50%;
-    border-color: #682c2c;
-    border-width: 5px;
-    border-style: solid;
+    width: 220px;
+    height: 220px;
+    background-image: url(./images/logo2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
     margin: 0 auto;
     position: relative;
     top: -10%;
@@ -43,7 +47,7 @@ h1 {
 
 .input-login::placeholder,
 .input-login {
-    width: 70%;
+    width: 65%;
     color: white;
     font-family: 'Nanum Gothic', sans-serif;
     border-top: 0px;
@@ -52,11 +56,12 @@ h1 {
     border-bottom-width: 2px;
     border-bottom-color: white;
     background-color: #682c2c;
-
+    margin: 5px; 
+    font-size: 0.9em; 
 }
 
 #button-login {
-    width: 50%;
+    width: 40%;
     background-color: #682c2c;
     font-family: 'Nanum Gothic', sans-serif;
     border: 3px;
@@ -64,6 +69,7 @@ h1 {
     border-color: white;
     color: white;
     font-size: 1em;
+    margin-bottom: 10px; 
 }
 
 .options {
@@ -78,18 +84,21 @@ h1 {
 }
 
 #logo-fb {
-    width: 100%; 
+    width: 70%; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
 }
 
 #logo-google {
     width: 70%;
+    padding: 5px; 
 }
 
 .logotipo {
     width: 35%; 
     margin: 0 auto; 
     background-color: white; 
-    margin-top: 5px; 
+    margin-top: 10px; 
 }
 
 /* Estilos del form de registro */
